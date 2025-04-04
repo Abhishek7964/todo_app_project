@@ -1,0 +1,102 @@
+* {
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.todo-detail {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.task-input {
+    box-sizing: border-box;
+    width: 20rem;
+    height: 2.6rem;
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.add-task-btn {
+    margin-left: 8px;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.update-task-btn {
+    margin-left: 8px;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.individual-task {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.todo-list-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    margin-left: 1.5rem;
+}
+
+.validation {
+    color: #fff;
+    font-size: small;
+}
+
+.edit-btn,.delete-btn {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.delete-btn {
+    margin-left: 4px;
+}
+
+.task {
+    padding-left: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.header {
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+    padding-top: 4rem;
+    text-decoration: underline;
+}
+
+.todo-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
